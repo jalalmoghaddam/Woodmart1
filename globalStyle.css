@@ -1,0 +1,53 @@
+:root {
+  --mainColor: #1a3d97;
+  --bgColor: #f4f3f2;
+  --white: #fff;
+  --mainText: #000;
+  --subText: #888;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.f14 {
+  font-size: 14px;
+}
+
+.f17 {
+  font-size: 17px;
+}
+
+.f20 {
+  font-size: 20px;
+}
+
+.f36 {
+  font-size: 36px;
+}
+
+.mainText {
+  color: var(--mainText);
+}
+
+.subText {
+  color: var(--subText);
+}
+
+.mainColor {
+  color: var(--mainColor);
+}
+
+.marbot16 {
+  margin-bottom: 16px;
+}
+
+.marbot20 {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+  .f36 {
+    font-size: 28px;
+  }
+}
