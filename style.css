@@ -372,15 +372,14 @@ main {
       /* padding: 2rem; */
       background-color: #fff;
       border: 2px solid #ddd;
-    }
-
-    .sliderContentDiv {
+    }    
+  }
+  .sliderContentDiv {
       grid-template-rows: 2fr;
       .stateDiv {
         display: none;
       }
     }
-  }
 }
 
 /* ================= Media 768 =======================*/
